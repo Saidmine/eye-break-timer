@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eye Break Timer</title>
+  <link rel="icon" type="image/x-icon" href="app_icon.ico">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #1e1e2f, #232342);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 30px;
+    }
+    header img {
+      width: 80px;
+      height: 80px;
+    }
+    h1 {
+      font-size: 2.5em;
+      margin: 0.2em 0;
+    }
+    p.subtitle {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    section.features {
+      max-width: 800px;
+      margin: 30px auto;
+      text-align: left;
+      padding: 0 20px;
+    }
+    section.features ul {
+      list-style: none;
+      padding: 0;
+    }
+    section.features li {
+      margin: 10px 0;
+      padding-left: 1.2em;
+      position: relative;
+    }
+    section.features li::before {
+      content: "✔";
+      color: #28e;
+      position: absolute;
+      left: 0;
+    }
+    .download-button {
+      margin: 40px auto;
+    }
+    .download-button a {
+      background: #28e;
+      color: white;
+      padding: 12px 25px;
+      font-size: 1.2em;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    footer {
+      padding: 20px;
+      font-size: 0.9em;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="app_icon.ico" alt="Logo">
+    <h1>Eye Break Timer</h1>
+    <p class="subtitle">Программа, которая заботится о ваших глазах</p>
+  </header>
+
+  <section class="features">
+    <h2>Функции</h2>
+    <ul>
+      <li>Установка интервалов отдыха</li>
+      <li>Звуковые уведомления перед перерывом</li>
+      <li>Автозапуск вместе с Windows</li>
+      <li>Свертывание в трей</li>
+      <li>Русский и английский интерфейс</li>
+    </ul>
+  </section>
+
+  <div class="download-button">
+    <a href="https://www.dropbox.com/scl/fi/gyfnagvc1z711hkor39kl/eye_break_timer.exe?rlkey=uqbcdbso9baxvf9ywh7xx36io&st=3e9bxarz&dl=1" target="_blank">🔽 Скачать Eye Break Timer</a>
+  </div>
+
+  <footer>
+    &copy; 2025 Eye Break Timer. Все права защищены.
+  </footer>
+</body>
+</html>
